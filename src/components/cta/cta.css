@@ -6,8 +6,9 @@
 
     padding: 2rem;
     margin: 4rem;
-    border-radius: 1rem;
-    background: var(--gradient-bar)
+    border-radius: 8px;
+    background: var(--gradient-bar);
+    box-shadow: 0 22px 48px rgba(174, 103, 250, 0.16);
 }
 
 .gpt3__cta-content {

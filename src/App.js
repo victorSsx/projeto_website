@@ -3,9 +3,12 @@ import './App.css';
 
 import { Footer, Blog, Possibility, Features, WhatGPT3, Header } from './containers';
 import { Cta, Brand, Navbar } from './components';
+import useMotionEffects from './hooks/useMotionEffects';
 
 
 function App() {
+  useMotionEffects();
+
   return (
     <div className="App">
       <div className='gradient__bg'>
