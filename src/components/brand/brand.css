@@ -15,3 +15,13 @@
     justify-content: center;
     align-items: center;
 }
+
+.gpt3__brand img {
+    opacity: 0.72;
+    transition: opacity 0.22s ease, transform 0.22s ease;
+}
+
+.gpt3__brand img:hover {
+    opacity: 1;
+    transform: translateY(-3px);
+}

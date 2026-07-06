@@ -4,17 +4,17 @@ import './footer.css';
 
 const Footer = () => (
   <div className="gpt3__footer section__padding">
-    <div className="gpt3__footer-heading">
+    <div className="gpt3__footer-heading" data-reveal="fade-up">
       <h1 className="gradient__text">Do you want to step in to the future before others</h1>
     </div>
 
-    <div className="gpt3__footer-btn">
+    <div className="gpt3__footer-btn" data-reveal="scale" style={{ '--reveal-delay': '120ms' }}>
       <p>Request Early Access</p>
     </div>
 
-    <div className="gpt3__footer-links">
+    <div className="gpt3__footer-links" data-reveal="fade-up" style={{ '--reveal-delay': '180ms' }}>
       <div className="gpt3__footer-links_logo">
-        <img src={gpt3Logo} alt="gpt3_logo" />
+        <img src={gpt3Logo} alt="GPT-3 logo" width="118" height="30" loading="lazy" decoding="async" />
         <p>Crechterwoord K12 182 DK Alknjkcb, <br /> All Rights Reserved</p>
       </div>
       <div className="gpt3__footer-links_div">
